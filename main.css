@@ -1,5 +1,5 @@
 h1 {
-    font-size: 20px ;
+    font-size: 40px ;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px ;
     margin:auto ;
@@ -12,11 +12,11 @@ h1 {
 
 h2 {
     font-size: 20px ;
-    font-style: italic;
+
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px ;
     margin:auto ;
-    font-weight: lighter;
+    font-weight: bold;
     text-decoration: none;
     color: black ;
     background-color: inherit;
@@ -26,10 +26,12 @@ h2 {
 p {
     font-family:Arial, Helvetica, sans-serif ;
     font-size: 1rem;
+    font-style: italic;
+    text-align: center;
     padding: 10px 10px;
-    margin: 3em 0em;
+    margin: 1em 0em;
     color: black;
-    background-color: lightblue;
+    background-color: inherit;
 }
 
 .logo {
@@ -38,6 +40,8 @@ p {
     background-color: white;
     height: 100px;
     width: 100px;
+    margin-top: 50em;
+    margin: auto;
 }
 
 /* img{
